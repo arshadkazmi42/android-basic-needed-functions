@@ -168,8 +168,8 @@ public class Util{
      * @param message
      * @param resourceId - Resource ID of the Layout
      */
-    public static void startProgressDialog(ProgressDialog dialog, String message, int resourceId) {
-        dialog.setMessage(message);
+    public static void startProgressDialog(ProgressDialog dialog, int resourceId) {
+        dialog.setMessage("");
         dialog.setCanceledOnTouchOutside(false);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
