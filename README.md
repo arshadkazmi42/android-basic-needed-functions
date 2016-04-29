@@ -80,17 +80,17 @@ Collection of basic needed functions required for android app development
 	Return void<br>
 	Logs FaceBook hashKey in console<br>
 	
-18. encodeToBase64(Bitmap image)
-	Pass Bitmap
-	Return base64 string
+18. encodeToBase64(Bitmap image)<br>
+	Pass Bitmap<br>
+	Return base64 string<br>
 	
-19. decodeBase64(String base64)
-	Pass base64 string
-	Return bitmap
+19. decodeBase64(String base64)<br>
+	Pass base64 string<br>
+	Return bitmap<br>
 	
-20. isAppInstalled(String packageName, Context context)
-	Pass App Package Name and Context
-	Returns boolean true/false
+20. isAppInstalled(String packageName, Context context)<br>
+	Pass App Package Name and Context<br>
+	Returns boolean true/false<br>
 	
 	
 Stay Tuned for more functions
