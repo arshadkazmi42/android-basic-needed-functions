@@ -88,5 +88,9 @@ Collection of basic needed functions required for android app development
 	Pass base64 string
 	Return bitmap
 	
+20. isAppInstalled(String packageName, Context context)
+	Pass App Package Name and Context
+	Returns boolean true/false
+	
 	
 Stay Tuned for more functions

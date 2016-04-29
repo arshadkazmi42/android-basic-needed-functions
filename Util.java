@@ -325,6 +325,25 @@ public class Util{
         byte[] decodedByte = Base64.decode(input, 0);
         return BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
     }
+	
+	
+	/**
+	* Check if AppInstalled
+	* @param packageName //Name of the package of the app
+	* @param context
+	*
+	*/
+	public static boolean isAppInstalled(String packageName, Context context) {
+        PackageManager pm = context.getPackageManager();
+        boolean installed = false;
+        try {
+            pm.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
+            installed = true;
+        } catch (PackageManager.NameNotFoundException e) {
+            installed = false;
+        }
+        return installed;
+    }
 
 
 }
