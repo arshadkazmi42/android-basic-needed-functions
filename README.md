@@ -80,5 +80,13 @@ Collection of basic needed functions required for android app development
 	Return void<br>
 	Logs FaceBook hashKey in console<br>
 	
+18. encodeToBase64(Bitmap image)
+	Pass Bitmap
+	Return base64 string
+	
+19. decodeBase64(String base64)
+	Pass base64 string
+	Return bitmap
+	
 	
 Stay Tuned for more functions
