@@ -94,3 +94,13 @@ Collection of basic needed functions required for android app development
 	
 	
 Stay Tuned for more functions
+
+
+<br><br><b>SharedPreferences Handler</b><br>
+
+Use SharedPrefs file for SharedPrefs storing and fetching<br>
+1. Store and fetch String, Integer, Boolean, Float value to and from SharedPreferences<br>
+2. Remove Data from SharedPreferences for particular key<br>
+3. Clear Complete SharedPreferences<br><br>
+
+Note: Change app_name to your app package name in sharedPrefs file<br>
