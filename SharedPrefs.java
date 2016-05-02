@@ -1,10 +1,8 @@
-package com.licious.global;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by Licious on 02-05-2016.
+ * Created by Arshad on 02-05-2016.
  */
 public class SharedPrefs {
 
