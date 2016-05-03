@@ -344,6 +344,44 @@ public class Util{
         }
         return installed;
     }
+	
+	
+	/**
+     * Convert File to Bitmap
+     * Centre cropping image
+     *
+     * @param file
+     * @return
+     */
+    public static Bitmap convertFiletoBitmap(File file) {
+        String filePath = file.getPath();
+        Bitmap bitmap = BitmapFactory.decodeFile(filePath);
+		
+		/**
+		* Centr crop image in square size
+		**/
+        if (bitmap.getWidth() >= bitmap.getHeight()){
+
+            bitmap = Bitmap.createBitmap(
+                    bitmap,
+                    bitmap.getWidth()/2 - bitmap.getHeight()/2,
+                    0,
+                    bitmap.getHeight(),
+                    bitmap.getHeight()
+            );
+
+        }else{
+
+            bitmap = Bitmap.createBitmap(
+                    bitmap,
+                    0,
+                    bitmap.getHeight()/2 - bitmap.getWidth()/2,
+                    bitmap.getWidth(),
+                    bitmap.getWidth()
+            );
+        }
+        return bitmap;
+    }
 
 
 }

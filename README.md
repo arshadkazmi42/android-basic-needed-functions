@@ -92,6 +92,10 @@ Collection of basic needed functions required for android app development
 	Pass App Package Name and Context<br>
 	Returns boolean true/false<br>
 	
+21. convertFiletoBitmap(File file);
+	Pass image file
+	Returns centre crop square bitmap image
+	
 	
 Stay Tuned for more functions
 
